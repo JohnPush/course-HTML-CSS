@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styleBlog.css" />
     <title>1-Blog</title>
   </head>
   <body>
     <header>
       <div>
-        <a href="#">
+        <a href="#" class="logo">
           <div>
-            <p>B</p>
-            <p>Мой блог</p>
+            <img
+              src="./images/Rectangle 2.png"
+              alt="Изображение прямоугольника"
+            />
+            <p class="logoLabel">B</p>
+            <p class="qwe">Мой блог</p>
           </div>
         </a>
       </div>
@@ -25,24 +30,32 @@
         </nav>
       </div>
       <div>
+        <img src="./images/search.png" alt="Изображение лупы" />
         <input type="search" placeholder="Поиск" />
       </div>
     </header>
     <main>
       <section>
-        <p>FRONTEND 12 мая 2024</p>
+        <p class="subjectDate">
+          FRONTEND
+          <img
+            src="./images/Rectangle 5.png"
+            alt="изображение прямоугольника"
+          />
+          12 мая 2024
+        </p>
         <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
         <article>
           <img src="./images/Фото разработчика.png" alt="Фото автора" />
-          <div>
+          <div class="author">
             <p>Наталья Васильева</p>
-            <p>Разработчик</p>
+            <p class="authorProfession">Разработчик</p>
           </div>
         </article>
         <img src="./images/Монитор.png" alt="Изображение монитора" />
       </section>
-      <section>
-        <p>
+      <section class="textArticle">
+        <p class="textArticleUp">
           Теория цвета — это особенности эмоционального восприятия человеком тех
           или иных цветовых решений. Цвета и различные их комбинации влияют на
           психику человека, а значит, во многом определяют его поведение.

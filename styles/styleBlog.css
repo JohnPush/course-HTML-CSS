@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto";
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.logoLabel {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+input[type="search"] {
+  background-color: rgba(31, 41, 55, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subjectDate {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.author {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.authorProfession {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.textArticle {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.textArticleUp {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.textArticle a {
+  color: #ffffff;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,21 +9,19 @@
   <body>
     <main>
       <h1>Регистрация</h1>
-      <div>
-        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
-      </div>
+      <p>Уже есть аккаунт? <a href="#">Войти</a></p>
       <form action="#">
         <div>
           <label for="company"></label>
-          <textarea
+          <input
+            type="text"
             name="company"
             id="company"
-            cols="30"
-            rows="1"
             placeholder="Моя компания"
-          ></textarea>
+            required
+          />
         </div>
-        <div>
+        <div class="fullName">
           <label for="name"></label>
           <input type="text" name="name" id="name" placeholder="Имя" required />
           <label for="surname"></label>
@@ -45,11 +43,11 @@
             required
           />
         </div>
-        <div>
+        <div class="button">
           <button>Зарегистрироваться</button>
           <img src="./images/Arrow 1.png" alt="Изображение стрелка вправо" />
         </div>
-        <div>
+        <div class="checkbox">
           <input type="checkbox" name="checkbox" id="checkbox" required />
           <label for="checkbox"
             >Я прочитал и принимаю <a href="#">Условия использования</a></label

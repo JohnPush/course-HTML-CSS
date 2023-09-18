@@ -3,8 +3,6 @@
 }
 
 body {
-  width: 1440px;
-  height: 1024px;
   background: linear-gradient(
       243deg,
       #fdc5c5 25.45%,
@@ -39,7 +37,6 @@ h1 {
 p {
   color: #666666;
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   text-align: center;
   margin: 0 0 47px 0;
@@ -86,7 +83,6 @@ input {
   color: #999999;
   font-size: 16px;
   font-style: italic;
-  font-weight: 400;
   line-height: 22px;
   border-radius: 5px;
   border: none;
@@ -107,7 +103,6 @@ button {
   background-color: #089fe0;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   border-radius: 5px;
   text-align: center;
@@ -131,7 +126,6 @@ img {
 label {
   color: #666666;
   font-size: 14px;
-  font-weight: 400;
   line-height: 19px;
 }
 

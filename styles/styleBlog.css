@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 80px 180px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+input[type="search"] {
+  background-color: rgba(31, 41, 55, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.6);
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  padding: 9px 5px 12px 49px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 0 0 30px 0;
+}
+
+article {
+  margin: 0 0 28px 0;
+}
+
+article + img {
+  margin: 0 0 69px 0;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 77px;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.logoLabel {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  padding: 6px 12px;
+  background-color: #4b5563;
+  border-radius: 3px;
+  margin: 0;
+  width: 11px;
+  height: 23px;
+}
+
+.subjectDate {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 14px 0;
+}
+
+.author {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.authorProfession {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.textArticle {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 0 103px 0;
+}
+
+.textArticleUp {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.textArticle a {
+  color: #ffffff;
+}

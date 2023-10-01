@@ -52,9 +52,9 @@
         </div>
       </div>
     </header>
-    <section class="section section_color">
+    <section class="section section_color section_rotate">
       <div class="section__wrapper section__wrapper_top">
-        <div>
+        <div class="top__left">
           <div class="headling">
             <h1 class="headling__main_top">
               Простой финансовый учёт для продавцов на маркетплейсах
@@ -71,9 +71,9 @@
             />
           </div>
         </div>
-        <div class="image-container image-container_PC">
+        <!-- <div class="image-container image-container_PC">
           <img src="./images/PC.png" alt="изображение ноутбука" />
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="section section_basic">
@@ -99,25 +99,29 @@
           </div>
         </div>
         <div class="feature feature_reverse">
-          <div class="image-container image-container_feature">
+          <div
+            class="image-container image-container_feature image-container_cashGap"
+          >
             <img src="./images/кассовые разрывы.png" alt="" />
           </div>
-          <div class="headling">
+          <div class="headling headling_cashGap">
             <h2 class="headling__main_feature">
               Предотвращайте кассовые разрывы
             </h2>
             <p class="headling__subheadling_feature">
-              feature Заранее планируйте предстоящие платежи и поступления
-              средств. Тем самым, вы избежите неприятной ситуации с нехваткой
-              средств на счетах
+              Заранее планируйте предстоящие платежи и поступления средств. Тем
+              самым, вы избежите неприятной ситуации с нехваткой средств на
+              счетах
             </p>
           </div>
         </div>
         <div class="feature">
-          <div class="image-container image-container_feature">
+          <div
+            class="image-container image-container_feature image-container_plStatement"
+          >
             <img src="./images/ОПиУ.png" alt="" />
           </div>
-          <div class="headling">
+          <div class="headling headling_plStatement">
             <h2 class="headling__main_feature">
               Отчёты о прибыли и убытках всегда под рукой
             </h2>
@@ -128,10 +132,12 @@
           </div>
         </div>
         <div class="feature feature_reverse">
-          <div class="image-container image-container_feature">
+          <div
+            class="image-container image-container_feature image-container_marginalProfit"
+          >
             <img src="./images/Прибыль в разрезе товаров.png" alt="" />
           </div>
-          <div class="headling">
+          <div class="headling headling_marginalProfit">
             <h2 class="headling__main_feature">
               Какие товары приносят прибыль
             </h2>
@@ -142,10 +148,22 @@
           </div>
         </div>
         <div class="feature">
-          <div class="image-container image-container_feature">
-            <img src="./images/лишние расходы.png" alt="" />
+          <div
+            class="image-container image-container_feature image-container_unnecessarExpenses"
+          >
+            <div
+              class="image-container image-container_feature image-container_mainUnnecessarExpenses"
+            >
+              <img src="./images/лишние расходы.svg" alt="" />
+            </div>
+            <!-- <div
+              class="image-container image-container_feature image-container_additionUnnecessarExpenses"
+            >
+              <img src="./images/дополнение к расходам .png" alt="" />
+            </div> -->
           </div>
-          <div class="headling">
+
+          <div class="headling headling_unnecessarExpenses">
             <h2 class="headling__main_feature">Сокращайте лишние расходы</h2>
             <p class="headling__subheadling_feature">
               Анализируйте расходы, убирать ненужные издержки и находите
@@ -172,36 +190,70 @@
         <button class="button button_basic button_comparison">
           Попробовать 14 дней бесплатно
         </button>
+
         <div class="image-container image-container_comparison">
           <img class="excel" src="./images/excel.png" alt="изображение excel" />
           <img class="finio" src="./images/finio.png" alt="изображение finio" />
         </div>
         <div class="comparison">
-          <div>
+          <div class="comparison__excel">
             <div class="comparison__title">Excel</div>
-            <ul class="comparison__menu comparison__menu_excel">
-              <li class="comparison-point">Долгое внесение данных</li>
-              <li class="comparison-point">
-                Ручной ввод данных с маркетплейсов
-              </li>
-              <li class="comparison-point">Не удобная работа с телефона</li>
-              <li class="comparison-point">
-                Сложность восприятия итоговых данных
-              </li>
-            </ul>
+            <div class="comparison__points">
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/exclamation-circle.svg" alt="" />
+                </div>
+                <div>Долгое внесение данных</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/exclamation-circle.svg" alt="" />
+                </div>
+                <div>Ручной ввод данных с маркетплейсов</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/exclamation-circle.svg" alt="" />
+                </div>
+                <div>Не удобная работа с телефона</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/exclamation-circle.svg" alt="" />
+                </div>
+                <div>Сложность восприятия итоговых данных</div>
+              </div>
+            </div>
           </div>
-          <div>
+
+          <div class="comparison__finio">
             <div class="comparison__title">FINIO</div>
-            <ul class="comparison__menu comparison__menu_finio">
-              <li class="comparison-point">Внесение данных за пару кликов</li>
-              <li class="comparison-point">
-                Автоматическое получение данных по API
-              </li>
-              <li class="comparison-point">Удобная мобильная версия</li>
-              <li class="comparison-point">
-                Наглядные отчеты, графики и таблицы
-              </li>
-            </ul>
+            <div class="comparison__points">
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/check-circle.svg" alt="" />
+                </div>
+                <div>Внесение данных за пару кликов</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/check-circle.svg" alt="" />
+                </div>
+                <div>Автоматическое получение данных по API</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/check-circle.svg" alt="" />
+                </div>
+                <div>Удобная мобильная версия</div>
+              </div>
+              <div class="comparison-point">
+                <div class="image-container image-container_point">
+                  <img src="./images/check-circle.svg" alt="" />
+                </div>
+                <div>Наглядные отчеты, графики и таблицы</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

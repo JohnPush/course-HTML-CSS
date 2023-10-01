@@ -42,9 +42,14 @@
 .excel {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 2.5%;
   transform: translate(0, -50%);
   max-width: 50%;
+  max-height: 90.5%;
+}
+
+.image-container_point {
+  max-width: 24px;
 }
 
 /*Comparison*/
@@ -63,19 +68,10 @@
   margin: 0 0 24px;
 }
 
-.comparison__menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  list-style-position: inside;
-}
-
-.comparison__menu_excel li::marker {
-  content: url(../images/exclamation-circle.svg);
-}
-
-.comparison__menu_finio li::marker {
-  content: url(../images/check-circle.svg);
+.comparison-points {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .comparison-point {
@@ -86,6 +82,9 @@
 
   align-items: center;
   margin: 0 0 24px;
+
+  display: flex;
+  gap: 8px;
 }
 
 /*Adaptive*/

@@ -5,7 +5,21 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 33px;
-  margin-bottom: 47px;
+}
+
+/* .section_rotate::before {
+  content: "";
+  background-color: red;
+  width: calc(100% + 500px);
+  height: 312px;
+  bottom: 140px;
+  left: 0;
+  transform: rotate(-7.003deg);
+  position: absolute;
+} */
+
+.top__left {
+  max-width: 515px;
 }
 
 /*Headling*/
@@ -34,7 +48,6 @@
 
 @media (max-width: 960px) {
   .section__wrapper_top {
-    margin-bottom: 33px;
     padding: 32px 24px 107px;
   }
 

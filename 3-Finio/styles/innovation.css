@@ -61,20 +61,21 @@
 }
 
 .image-container_unnecessarExpenses {
-  max-width: 617px;
+  position: relative;
+  max-width: 461px;
+  width: 100%;
 }
 
-.image-container_mainUnnecessarExpenses {
-  max-width: 410px;
-}
-
-.image-container_additionUnnecessarExpenses {
+.additionUnnecessarExpenses {
   max-width: 450px;
+  position: absolute;
+  top: 88px;
+  left: 160px;
 }
 
-.image-container_feature {
+/* .image-container_feature {
   flex-shrink: 0;
-}
+} */
 
 .headling_cashGap {
   max-width: 482px;

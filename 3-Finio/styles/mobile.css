@@ -3,6 +3,7 @@
 .section__wrapper_mobile {
   max-width: var(--layout-width-narrow);
   margin-bottom: 120px;
+  overflow: hidden;
 }
 
 /*data*/
@@ -28,5 +29,10 @@
 @media (max-width: 960px) {
   .headling__main_mobile {
     font-size: 36px;
+  }
+  .image-container_mobile {
+    position: relative;
+    width: 678px;
+    height: 450px;
   }
 }

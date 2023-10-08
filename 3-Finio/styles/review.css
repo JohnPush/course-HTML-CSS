@@ -1,0 +1,144 @@
+/*Main*/
+
+.section__wrapper_review {
+  max-width: var(--layout-width-average);
+  margin-bottom: 80px;
+}
+
+/*СЕКЦИЯ ОТЗЫВЫ//ЗАГОЛОВОК*/
+
+.headling__main_review {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%; /*57.6px*/
+  margin: 0 auto 24px;
+}
+
+/*СЕКЦИЯ ОТЗЫВЫ//КАРТОЧКИ ОТЗЫВОВ*/
+
+.review-card {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  flex-direction: row-reverse;
+  background-color: #357efe;
+  box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
+  border-radius: 8px;
+}
+
+.image-container_review {
+  max-width: calc(100% / 2);
+  flex-shrink: 0;
+}
+
+.image-container_review > img {
+  border-radius: 0 8px 8px 0;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 120px 0 113px 104px;
+  color: #fff;
+}
+
+.review__text {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%; /* 39.2px */
+}
+
+.respondent {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 140%; /* 23.8px */
+}
+
+.marketplace {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 140%; /* 23.8px */
+}
+
+.button-nav {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-nav_left {
+  top: 199px;
+  left: 24px;
+}
+
+.button-nav_right {
+  transform: rotate(180deg);
+  top: 199px;
+  right: 24px;
+}
+
+.button-slider {
+  position: absolute;
+  top: calc(100% / 1.12);
+  left: calc(100% / 2.5);
+  display: flex;
+  gap: 7px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.button-slider__inside {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.button-slider__inside_active {
+  background-color: #fff;
+}
+
+/*Adaptive*/
+@media (max-width: 960px) {
+  .section__wrapper_review {
+    margin: 0 auto 64px;
+  }
+
+  .headling__main_review {
+    font-size: 36px;
+  }
+
+  .review-card {
+    flex-direction: column;
+  }
+
+  .image-container_review {
+    max-width: 960px;
+  }
+
+  .image-container_review > img {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .button-nav {
+    display: none;
+  }
+
+  .review {
+    gap: 40px;
+    padding: 0 24px 104px 24px;
+    color: #fff;
+    flex: 1;
+  }
+
+  .review__text {
+    font-size: 24px;
+  }
+}

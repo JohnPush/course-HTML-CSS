@@ -1,0 +1,38 @@
+/*Main*/
+
+.section__wrapper_mobile {
+  max-width: var(--layout-width-narrow);
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+/*data*/
+
+.headling__main_mobile {
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0 auto 24px;
+}
+
+.headling__subheadling_mobile {
+  color: rgba(78, 93, 124, 0.5);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0px;
+}
+
+/*Adaptive*/
+
+@media (max-width: 960px) {
+  .headling__main_mobile {
+    font-size: 36px;
+  }
+  .image-container_mobile {
+    position: relative;
+    width: 678px;
+    height: 450px;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+  --color-bg-basic: #ffffff;
+  --color-bg-color: #357efe;
+
+  --layout-width-basic: 1440px;
+  --layout-width-average: 1204px;
+  --layout-width-narrow: 1176px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-bg-basic);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+}
